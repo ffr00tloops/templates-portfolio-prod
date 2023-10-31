@@ -16,6 +16,7 @@ document.querySelector('.hamburger-btn').addEventListener('click', () => {
         navbarContentMobile.style.marginLeft = "-10px";
         navbarContentMobile.style.textAlign = "left";
         navbarContentMobile.style.padding = "10px";
+        navbarContentMobile.style.color = "black";
         console.log("the thing happened")
     } else {
         navbarContentMobile.style.display = "none";
