@@ -125,9 +125,9 @@ body {
 
 .nav-links:hover {
     cursor: pointer;
-    background-color: #A4BAB7;
-    border-radius: 5px;
-    box-sizing: border-box ;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+    0px 8px 13px rgba(0,0,0,0.1),
+    0px 18px 23px rgba(0,0,0,0.1);
 }
 
 .hamburger-btn {
@@ -173,16 +173,15 @@ body {
 }
 
 .copyright-container {
-    background-color: #A4BAB7;
+    background-color: #EF959D;
     color: white;
-    text-align: end;
-    padding: 1em;
+    padding: 0.2em;
     
 }
 
 .copyright-content {
     width: 60%;
-    text-align: end;
+    text-align: center;
     margin: 0 auto;
 }
 
@@ -291,8 +290,34 @@ a:visited {
     color: white;
 }
 
+/*SECTION */
 
+.section-container {
+    background-color: #064B4A;
+    margin: -10px ;
+    padding: 100px 0px 100px 0px;
+    color: white;
+}
 
+.section-content {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.section-content h1 {
+    font-size: 6rem;
+    font-weight: 900;
+    text-align: center;
+    text-shadow: 10px 10px 10px rgba(0,0,0,0.3);
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    margin: 100px;
+    gap: 50px;
+}
 
 
 
