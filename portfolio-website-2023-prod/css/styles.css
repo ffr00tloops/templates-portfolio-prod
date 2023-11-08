@@ -5,7 +5,6 @@
 
 08605F Main Color
 A4BAB7 Secondary
-EF959D Accent
 */
 
 /*Global Variables */
@@ -173,9 +172,9 @@ body {
 }
 
 .copyright-container {
-    background-color: #EF959D;
+    background-color: #053130;
     color: white;
-    padding: 0.2em;
+    padding: 0.5em;
     
 }
 
@@ -231,7 +230,7 @@ a:visited {
 .before-footer-container button:hover {
     border: white 5px solid;
     padding: 10px 30p ;
-    background-color:#EF959D;
+    background-color: #064B4A;
     font-family: 'Roboto';
     color: white;
     cursor: pointer;
@@ -285,7 +284,7 @@ a:visited {
 .button-25:hover {
     border: #064B4A 5px solid;
     padding: 10px 30px;
-    background-color: #EF959D;
+    background-color: #A4BAB7;
     font-family: 'Roboto';
     color: white;
 }
@@ -319,6 +318,40 @@ a:visited {
     
 }
 
+
+/* Section 2 */
+
+.section2-container {
+    background-color: white;
+    margin: -10px ;
+    padding: 100px 0px 100px 0px;
+    color: #064B4A;
+}
+
+.section2-content {
+    text-align: center;
+}
+
+.section2-content h1 {
+    font-size: 6rem;
+}
+
+.section2-card-container {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin: 0 auto;
+    width: 40%;
+    margin-top: 50px;
+}
+
+.section2-cards img {
+    height: auto;
+    width: 6rem;
+}
+
+.section2-cards * {
+    margin-top: 20px;
+}
 
 
 /*Media Queries*/
@@ -451,7 +484,7 @@ a:visited {
     .before-footer-container button:hover {
         border: white 5px solid;
         padding: 10px 30p ;
-        background-color:#EF959D;
+        background-color:#064B4A;
         font-family: 'Roboto';
         color: white;
         cursor: pointer;
