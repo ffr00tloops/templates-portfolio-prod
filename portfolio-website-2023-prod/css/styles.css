@@ -238,6 +238,8 @@ a:visited {
 
 }
 
+/*Banner Homepage*/
+
 .banner-homepage {
     padding: 150px 0px 150px;
     color: #064B4A;
@@ -273,8 +275,25 @@ a:visited {
     margin-bottom: 30px;
 }
 
+.button-24 {
+    border: #ac100b 5px solid;
+    padding: 10px 10px;
+    background-color: inherit;
+    font-family: 'Roboto';
+    color: black;
+}
+
+.button-24:hover {
+    border: #ac100b 5px solid;
+    padding: 10px 10px;
+    background-color: #af5d5a;
+    font-family: 'Roboto';
+    color: white;
+    cursor: pointer;
+}
+
 .button-25 {
-    border: #064B4A 5px solid;
+    border: #7fa8a8 5px solid;
     padding: 10px 30px;
     background-color: inherit;
     font-family: 'Roboto';
@@ -287,9 +306,10 @@ a:visited {
     background-color: #A4BAB7;
     font-family: 'Roboto';
     color: white;
+    cursor: pointer;
 }
 
-/*SECTION */
+/* Home SECTION1 */
 
 .section-container {
     background-color: #064B4A;
@@ -319,7 +339,7 @@ a:visited {
 }
 
 
-/* Section 2 */
+/* Home Section 2 */
 
 .section2-container {
     background-color: white;
@@ -352,6 +372,58 @@ a:visited {
 .section2-cards * {
     margin-top: 20px;
 }
+
+/*About Page*/
+
+/*About Section 1*/
+
+.abt-section-container {
+    background-color: #064B4A;
+    margin: -10px ;
+    padding: 100px 0px 100px 0px;
+    color: white;
+    text-align: center;
+}
+
+.abt-section-content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.abt-section-container2 {
+    background-color: white;
+    margin: -10px ;
+    padding: 100px 0px 100px 0px;
+    color: black;
+    text-align: center;
+}
+
+.abt-section-content2 {
+    width: 60%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: justify;
+}
+
+
+.abt-section-content2 img {
+    height: 500px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    
+}
+
+.abt-section-container-txt * {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.abt-section-container-txt h1 {
+    color: #053130;
+}
+
 
 
 /*Media Queries*/
