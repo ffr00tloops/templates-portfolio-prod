@@ -424,6 +424,51 @@ a:visited {
     color: #053130;
 }
 
+/* Form*/
+
+.form-container {
+    background-color: white;
+    margin: -10px ;
+    padding: 100px 0px 100px 0px;
+    color: white;
+    text-align: center;
+    border-top: solid rgb(177, 177, 177) 1px;
+    border-bottom: solid rgb(173, 173, 173) 1px;
+    
+}
+
+.form-content {
+    width: 20%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto;
+    border: 1px solid rgb(228, 226, 226);
+    padding: 5rem;
+    background-color: #064B4A;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    border-radius: 20px;
+    color: whitesmoke;
+}
+
+.form-container * {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Roboto";
+}
+
+.form-container input {
+    color: #064B4A;
+    font-family: "Roboto";
+}
+
+.form-container button {
+    color: white;
+}
+
+.font-content textarea {
+    max-width: 100%;
+}
+
 
 
 /*Media Queries*/
