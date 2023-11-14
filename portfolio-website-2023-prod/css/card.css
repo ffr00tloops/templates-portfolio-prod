@@ -14,7 +14,7 @@
   
   /* Add some padding inside the card container */
   .container {
-    padding: 10px 16px;
+    padding: 20px 16px;
     background-color: white;
     color: #08605F;
     height: 100px;
@@ -26,4 +26,10 @@
   .card img {
     width: 100%;
     height: 100%;
+  }
+
+  @media only screen and (max-width: 1200px){
+    .container {
+      padding: 40px 16px;
+    }
   }

@@ -474,13 +474,102 @@ a:visited {
 /*Media Queries*/
 @media only screen and (max-width: 1200px) {
 
-    body {
-      background-color: lightblue;
+    .form-content {
+        width: 60%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: auto;
+        border: 1px solid rgb(228, 226, 226);
+        padding: 5rem;
+        background-color: #064B4A;
+        box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+        border-radius: 20px;
+        color: whitesmoke;
     }
+
+    .section-content h1 {
+        font-size: 3rem;
+    }
+
+    .section2-content h1 {
+        font-size: 3rem;
+    }
+
+    .abt-section-content2 {
+        width: 100%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+
+    .abt-section-container-txt {
+        text-align: center;
+    } 
+
+    .abt-section-container-txt p {
+        width: 80%;
+        margin: auto;
+    }
+
+    .abt-section-content2 * {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .abt-section-content2 img {
+        width: 250px;
+        height: 250px;
+        margin: 0 auto;
+    }
+
+    .section2-card-container {
+        display: grid;
+        grid-template-columns: auto;
+        margin: 0 auto;
+        width: 40%;
+        margin-top: 50px;
+    }
+
+    .card-container {
+        display: grid;
+        grid-template-columns: auto;
+        margin: 0 auto;
+        gap: 100px;
+        
+    }
+
+    .banner-homepage-container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto;
+    }
+
 
     .homepg-container {
         background-color: #064B4A;
         padding: 10px;
+    }
+
+    .banner-homepage-txt-container {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .banner-homepage-txt-container h1 {
+        font-size: 3rem;
+    }
+
+    .banner-homepage-container img {
+        height: 300px;
+        width: 300px;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    }
+    
+
+    .banner-homepage-txt-container p {
+        margin: 0 auto;
     }
 
 
