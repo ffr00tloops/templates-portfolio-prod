@@ -266,8 +266,8 @@ a:visited {
 .banner-homepage-container img {
     height: 500px;
     width: 500px;
-    border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-radius: 5px;
+    vertical-align: middl;
 }
 
 .banner-homepage-txt-container * {
