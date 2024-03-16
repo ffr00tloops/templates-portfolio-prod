@@ -65,6 +65,10 @@ h5 {font-size: 16px; margin: 0px;}
     margin: -10px;
 }
 
+.navbar-bg {
+    background-color:black;
+}
+
 .navbar-container {
     width: 60%;
     margin: 0 auto;
@@ -83,9 +87,13 @@ h5 {font-size: 16px; margin: 0px;}
     color: white;
 }
 
+.navbar-content a {
+    font-weight: 800;
+}
+
 .header-body {
   text-align: center;
-  padding: 15rem 0px 15rem 0px;
+  padding: 15rem 0px 21rem 0px;
   color: white;
 }
 
